@@ -29,7 +29,5 @@ public class SmartTv {
 		volume++;
 	}
 	
-	public void baixarVolume() {
-		volume--;
-	}
+	
 }
