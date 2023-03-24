@@ -20,6 +20,9 @@ public class Usuario {
 		System.out.println("Novo Canal? " + smartTv.canal);
 		
 		smartTv.aumentarCanal();
-		System.out.println("Novo Canal? " + smartTv.canal);		
+		System.out.println("Novo Canal? " + smartTv.canal);	
+		
+		smartTv.mudarCanal(27);
+		System.out.println("Novo Canal? " + smartTv.canal);	
 	}
 }
